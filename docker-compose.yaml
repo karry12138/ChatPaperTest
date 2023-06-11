@@ -18,6 +18,7 @@ services:
       - "chatpaper_pdf_files:/opt/chatpaper/pdf_files"
       - "chatpaper_response_file:/opt/chatpaper/response_file"
     environment:
-      - OPENAI_KEY=YOUR_KEY_HERE
+#       - OPENAI_KEY=YOUR_KEY_HERE
+      - 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
     image: "panda1024/chatpaper:v1.0"
     restart: always
